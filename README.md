@@ -57,21 +57,6 @@ python train.py \
   --configs crafter
 ```
 
-## Supported Environments
+## Tips
 
-- **Crafter** - Procedurally generated survival game
-- **Atari** - Classic Atari games (Atari 100k benchmark supported)
-- **DMC** - DeepMind Control Suite (vision and proprioception)
-- **Minecraft** - Diamond mining task
-- **DMLab** - DeepMind Lab navigation
-- **LocoNav** - Locomotion navigation
-
-## Configuration
-
-All training configurations are defined in `configs.yaml`. Key configurations include:
-
-- `defaults` - Base configuration
-- `crafter` - Crafter environment settings
-- `atari` / `atari100k` - Atari settings
-- `minecraft` - Minecraft settings
-- `small` / `medium` / `large` / `xlarge` - Model size presets
+This codebase is forked from a co-author's renovated implementation: https://github.com/ibisbill/World_Models_w_Hints_from_LLMs
